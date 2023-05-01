@@ -67,7 +67,7 @@ async def private_receive_handler(c: Client, m: Message):
             if user.status == "kicked":
                 await c.send_message(
                     chat_id=m.chat.id,
-                    text="You are banned!\n\n  **Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ [Adarsh Goel](https://github.com/adarsh-goel) ʜᴇ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**",
+                    text="You are banned!\n\n  **Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ [BATMAN](https://t.me/BATMAN_0) ʜᴇ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**",
                     
                     disable_web_page_preview=True
                 )
@@ -75,11 +75,11 @@ async def private_receive_handler(c: Client, m: Message):
         except UserNotParticipant:
             await c.send_message(
                 chat_id=m.chat.id,
-                text="""<i>𝙹𝙾𝙸𝙽 UPDATES CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴 🔐</i>""",
+                text="""<b>𝙅𝙊𝙄𝙉 𝙐𝙎 𝙃𝙀𝙍𝙀!! 𝙩𝙤 𝙐𝙨𝙚 𝙈𝙚 😎</b>""",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                            InlineKeyboardButton("𝙅𝙤𝙞𝙣 𝙉𝙤𝙬 🤘🏻", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                         ]
                     ]
                 ),
@@ -90,7 +90,7 @@ async def private_receive_handler(c: Client, m: Message):
             await m.reply_text(e)
             await c.send_message(
                 chat_id=m.chat.id,
-                text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍʏ ʙᴏss** [Adarsh Goel](https://github.com/adarsh-goel)",
+                text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍʏ ʙᴏss** [BATMAN](https://t.me/BATMAN_0)",
                 
                 disable_web_page_preview=True)
             return
