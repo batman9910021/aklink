@@ -11,8 +11,8 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '5574912'))
     API_HASH = str(getenv('API_HASH', '37f90ccb92ff182cd707b3516d20ac3b'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN', '5983410560:AAEKAmMWmzQih3SIYYVnv1WyQUd7BW2C90A'))
-    name = str(getenv('name', 'AK_Link_bot'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', '6192351916:AAFbRv0p7cCaz9TXK---U-oSmnSvpNV15AQ'))
+    name = str(getenv('name', 'AK_File_Link_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001982553868'))
