@@ -11,7 +11,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '5574912'))
     API_HASH = str(getenv('API_HASH', '37f90ccb92ff182cd707b3516d20ac3b'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN', '6022361671:AAHKKgEpCQgGiKDC4MOF636_W0Wxz_9euEo'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', '6340019631:AAFL3Wl8IsA7baGw8vhg5Ja59J32D1QRWJU'))
     name = str(getenv('name', 'ImaxLink_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
