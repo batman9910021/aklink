@@ -32,9 +32,9 @@ class Var(object):
     FQDN = str(getenv('FQDN', '195.154.237.14:8080')) if not ON_HEROKU or getenv('FQDN', '195.154.237.14:8080') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL',False))
     if HAS_SSL:
-        URL = "https://{akimaxmovies.com}/".format(FQDN)
+        URL = "https://{}/".format(FQDN)
     else:
-        URL = "http://{akimaxmovies.com}/".format(FQDN)
+        URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://sof3225:sof3225@cluster0.7jclbh3.mongodb.net/?retryWrites=true&w=majority'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'Akimaxmovies_0'))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split())) 
