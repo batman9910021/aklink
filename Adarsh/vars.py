@@ -9,20 +9,20 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '5574912'))
-    API_HASH = str(getenv('API_HASH', '37f90ccb92ff182cd707b3516d20ac3b'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN', '6340019631:AAFL3Wl8IsA7baGw8vhg5Ja59J32D1QRWJU'))
+    API_ID = int(getenv('API_ID', '21879629'))
+    API_HASH = str(getenv('API_HASH', 'dcb6bfd6d51a8ff5f6aadb01b9fdd11b'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', '6873712233:AAFgikg2HEvXV4gO5iDwHhxcnx0aOML3xoc'))
     name = str(getenv('name', 'ImaxLink_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '180'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001936581912'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002124078334'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '195.154.182.77'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
-    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "6269004803").split())  
+    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "5591007272").split())  
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'Batman_0'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'Darkk12e'))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME'))
